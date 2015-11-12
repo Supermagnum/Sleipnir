@@ -4,7 +4,7 @@ Some ideas i have for a carputer that has built in navigation and
 support for APRS,and connection to a vhf/uhf radio.
 
 Hardware:
-Touchscreen with mont that fits in a cars 2x DIN (180x100mm) hole.
+Touchscreen with mount that fits in a cars 2x DIN (180x100mm) hole.
 A viable unit is the Icarus 2DIN housing, it has a touch screen and a
 rotary encoder,on/off switch and a 4 port active usb hub with connectors
 in the front. It also has a metal box. 
@@ -22,7 +22,7 @@ something that i am sure is a built in converter.
 USB port with optional rs-232 converter for CAT communication with the
 radio.
 GPS receiver with external or internal antenna
-UBLOX NEO-M8N,Supports
+UBLOX NEO-M8N,Supports:
 GPS,BeiDou WAAS, EGNOS, MSAS and is Galileo-ready
 https://www.u-blox.com/en/product/neo-m8-series
 Good RFI/tvi shielding.
