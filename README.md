@@ -41,10 +41,10 @@ Basic Software features and options:
 Navigation and routing to addresses and gps coordinates,other APRS stations(when they are stationary for the moment).
 display distance and bearing to the nearest APRS station
 with adjustable range filter(display only units that is inside xx
-kilometers,also displays beaconed message,this depends on the hardware).
-display altitude and GPS status.
+kilometers,also displays beaconed message.
+Display altitude and GPS status.
 GPS track logging.
-display speed/bearing of travel.
+Display speed/bearing of travel.
 Stations that are inside the filtered range but outside the current zoom
 level is displayed in the right side bar on the units navigation/map
 display. If the station transmits a message with a frequency, double
@@ -68,7 +68,7 @@ file or via wlan connection?) Database stored on SD card.
 Automatic swithing to navigation map if the vechile starts moving, or no input from the toucshreen is detected. I suggest a timer of 5 seconds.
 
 compatibility with maps from openstreetmap:
-Suggested routing software(unsure about licensing for commercial usage etc):
+Suggested routing software:
 http://www.navit-project.org/
 GIT repo here: https://github.com/navit-gps/navit.git
 Update of map data via wifi or other means.
