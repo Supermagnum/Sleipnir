@@ -2,6 +2,7 @@
 Open source APRS display unit with navigation ideas.
 Some ideas i have for a carputer that has built in navigation and
 support for APRS,and connection to a vhf/uhf radio.
+This is a template for the idea,its hardware and software functions.
 
 Hardware:
 Touchscreen with mount that fits in a cars 2x DIN (180x100mm) hole.
@@ -11,11 +12,12 @@ in the front. It also has a metal box.
 It does not have the possibillities for detachment so it is not so attractive for car burglars.
 USB hub with 6 ports for under the dashboard modules.
 A 12V to 5 V converter is also needed,this can be on board if a PCB is made.
-"motherboard" for now:
+
 Rasberry Pi B+ or better.
 USB sound card for voice directions from navigation software.
 TNC-Pi 2 for those radios that does not have a built in TNC.
 ( www.tnc-x.com)
+
 USB or on board RS-232 converter for interfacing to radios Terminal Data
 port. Some never radios uses (ex Yaesu FTM-400DR) a usb cable with a
 something that i am sure is a built in converter.
@@ -30,6 +32,7 @@ Good RFI/tvi shielding.
 Optional hardware:
 RTL2832U based usb recevier, this one supports DVB-T and FM and DAB+ (Glass mount antenna?)
 Good quality 4x50W audio amplifier with interface plugs to typical car speaker plugs.
+Bluetooth, some radios already has this built in,should be possible to pair with a blue tooth headset.
 
 automatic brightness regulation with  light-dependent resistor(useful
 for night operation)
@@ -60,19 +63,20 @@ http://www.aprs.org/symbols.html
 Information on the APRS protocol can be found here:
 http://www.aprs.org/doc/APRS101.PDF
 
-Compatible with https://www.repeaterbook.com (import of database from
+Compatibility with https://www.repeaterbook.com (import of database from
 file or via wlan connection?) Database stored on SD card.
 Automatic swithing to navigation map if the vechile starts moving, or no input from the toucshreen is detected. I suggest a timer of 5 seconds.
 
 compatibility with maps from openstreetmap:
 Suggested routing software(unsure about licensing for commercial usage etc):
-http://sourceforge.net/projects/gosmore/
-http://code.google.com/p/monav/
-I don't know if anyone of these can display APRS symbols.
+http://www.navit-project.org/
+GIT repo here: https://github.com/navit-gps/navit.git
+Update of map data via wifi or other means.
+I don't know if it can display APRS symbols.
 The software can possibly be customized to do so, or a "digital layer" that is displayed over the navigation map created.
 
 
 Optional software functions:
 DAB/FM tuner
 Media player (MP3 and common formats from USB key)
-Audio level control
+Audio media level control
