@@ -9,13 +9,15 @@ Touchscreen with mount that fits in a cars 2x DIN (180x100mm) hole.
 A viable unit is the Icarus 2DIN housing, it has a touch screen and a
 rotary encoder,on/off switch and a 4 port active usb hub with connectors
 in the front. It also has a metal box. 
-It does not have the possibillities for detachment so it is not so attractive for car burglars.
-USB hub with 3 ports for under the dashboard modules.
-A 12V to 5 V converter is also needed,this can be on board if a PCB is made.
-Suitable microphone for hands free phone calls.
+microphone for hands free phone calls.
 
-Rasberry Pi B+ or better.
-USB sound card for voice directions from navigation software.
+System-on-chip 
+	Broadcom BCM2711
+CPU
+	1.5 GHz 64 bit quad-core ARM Cortex-A72
+Memory
+	 4 GB LPDDR4-3200 RAM 
+
 TNC-Pi 2 for those radios that does not have a built in TNC.
 ( www.tnc-x.com)
 
@@ -34,7 +36,8 @@ Good RFI/tvi shielding.
 DAB radio receiver with Traffic Message Channel,
 automatically recompute best route if there are any traffical delays.
 
-Map update over wlan.
+2 sound output channels.
+One sound input channel ( microphone ).
 
 RTL2832U based usb recevier, this one supports DVB-T and FM and DAB+ (Glass mount antenna?)
 Good quality 4x50W audio amplifier with interface plugs to typical car speaker plugs.
@@ -55,6 +58,7 @@ Stations that are inside the filtered range but outside the current zoom
 level is displayed in the right side bar on the units navigation/map
 display. 
 Display of caller ID and name/information from phones number book.
+Map update over wlan.
 
 
 About APRS:
@@ -76,11 +80,9 @@ Update of map data via wifi or other means.
 I don't know if it can display APRS symbols.
 The software can possibly be customized to do so, or a "digital layer" that is displayed over the navigation map created.
 
-
 Optional software functions:
 Media player (MP3 and common formats from USB key)
 Audio media level control
-
 
 Optional:
 If the station transmits a message with a frequency, double
