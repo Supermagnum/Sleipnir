@@ -10,8 +10,9 @@ A viable unit is the Icarus 2DIN housing, it has a touch screen and a
 rotary encoder,on/off switch and a 4 port active usb hub with connectors
 in the front. It also has a metal box. 
 It does not have the possibillities for detachment so it is not so attractive for car burglars.
-USB hub with 6 ports for under the dashboard modules.
+USB hub with 3 ports for under the dashboard modules.
 A 12V to 5 V converter is also needed,this can be on board if a PCB is made.
+Suitable microphone for hands free phone calls.
 
 Rasberry Pi B+ or better.
 USB sound card for voice directions from navigation software.
@@ -23,16 +24,21 @@ port. Some never radios uses (ex Yaesu FTM-400DR) a usb cable with a
 something that i am sure is a built in converter.
 USB port with optional rs-232 converter for CAT communication with the
 radio.
-GPS receiver with external or internal antenna
+
+GPS receiver with external or internal antenna.
 UBLOX NEO-M8N,Supports:
 GPS,BeiDou WAAS, EGNOS, MSAS and is Galileo-ready
 https://www.u-blox.com/en/product/neo-m8-series
 Good RFI/tvi shielding.
 
-Optional hardware:
+DAB radio receiver with Traffic Message Channel,
+automatically recompute best route if there are any traffical delays.
+
+Map update over wlan.
+
 RTL2832U based usb recevier, this one supports DVB-T and FM and DAB+ (Glass mount antenna?)
 Good quality 4x50W audio amplifier with interface plugs to typical car speaker plugs.
-Bluetooth, some radios already has this built in,should be possible to pair with a blue tooth headset.
+Bluetooth, pairing with phone,
 
 automatic brightness regulation with  light-dependent resistor(useful
 for night operation)
@@ -47,14 +53,9 @@ GPS track logging.
 Display speed/bearing of travel.
 Stations that are inside the filtered range but outside the current zoom
 level is displayed in the right side bar on the units navigation/map
-display. If the station transmits a message with a frequency, double
-tapping on the message transmitted causes a CAT commando to be sent to
-the radio, so it tunes VFO2 to that frequency.
-Tapping it again returns it to your "home frequency",that is stored in
-the options/settings dialogue.
-Hamlib can be used for software interfacing of many radios.
-API documentation:
-http://hamlib.sourceforge.net/manuals/1.2.15/index.html
+display. 
+Display of caller ID and name/information from phones number book.
+
 
 About APRS:
 https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System
@@ -77,6 +78,19 @@ The software can possibly be customized to do so, or a "digital layer" that is d
 
 
 Optional software functions:
-DAB/FM tuner
 Media player (MP3 and common formats from USB key)
 Audio media level control
+
+
+Optional:
+If the station transmits a message with a frequency, double
+tapping on the message transmitted causes a CAT commando to be sent to
+the radio, so it tunes VFO2 to that frequency.
+Tapping it again returns it to your "home frequency",that is stored in
+the options/settings dialogue.
+Hamlib can be used for software interfacing of many radios.
+API documentation:
+http://hamlib.sourceforge.net/manuals/1.2.15/index.html
+
+Compatibility with https://www.repeaterbook.com (import of database from
+file or via wlan connection?) Database stored on SD card.
