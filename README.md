@@ -72,6 +72,8 @@ GIT repo here: https://github.com/navit-gps/navit.git
 Update of map data via wifi or other means.
 I don't know if it can display APRS symbols.
 The software can possibly be customized to do so, or a "digital layer" that is displayed over the navigation map created.
+There are suggestions for a patch:
+https://github.com/navit-gps/navit/issues/982
 
 Optional software functions:
 Media player (MP3 and common formats from USB key)
