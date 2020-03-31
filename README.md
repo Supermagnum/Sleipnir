@@ -6,20 +6,13 @@ This is a template for the idea,its hardware and software functions.
 
 Hardware:
 Touchscreen with mount that fits in a cars 2x DIN (180x100mm) hole.
-A viable unit is the Icarus 2DIN housing, it has a touch screen and a
+A viable unit is the Icarus 2DIN system from:
+https://i-carus.com/
+, it has a touch screen and a
 rotary encoder,on/off switch and a 4 port active usb hub with connectors
 in the front. It also has a metal box. 
 microphone for hands free phone calls.
 
-System-on-chip 
-	Broadcom BCM2711
-CPU
-	1.5 GHz 64 bit quad-core ARM Cortex-A72
-Memory
-	 4 GB LPDDR4-3200 RAM 
-
-TNC-Pi 2 for those radios that does not have a built in TNC.
-( www.tnc-x.com)
 
 USB or on board RS-232 converter for interfacing to radios Terminal Data
 port. Some never radios uses (ex Yaesu FTM-400DR) a usb cable with a
@@ -36,8 +29,8 @@ Good RFI/tvi shielding.
 DAB radio receiver with Traffic Message Channel,
 automatically recompute best route if there are any traffical delays.
 
-2 sound output channels.
-One sound input channel ( microphone ).
+4 sound output channels.
++One sound input channel ( microphone ).
 
 RTL2832U based usb recevier, this one supports DVB-T and FM and DAB+ (Glass mount antenna?)
 Good quality 4x50W audio amplifier with interface plugs to typical car speaker plugs.
@@ -96,3 +89,9 @@ http://hamlib.sourceforge.net/manuals/1.2.15/index.html
 
 Compatibility with https://www.repeaterbook.com (import of database from
 file or via wlan connection?) Database stored on SD card.
+
+
+Optionally hardware:
+
+TNC-Pi 2 for those radios that does not have a built in TNC.
+( www.tnc-x.com)
